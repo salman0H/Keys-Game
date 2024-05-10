@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --body: #c9ffc7; 
+    --font: #535238; 
+}
+
+body{
+    background-color: var(--body);
+    overflow: hidden;
+}
+
+.ball{
+    background-color: var(--font);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
